@@ -23,4 +23,13 @@ Git 分为 工作区 暂存库 版本库(.Git)
 工作区删除了版本库还有，用git checkout -- readme.txt 就可以把版本库给工作区
 rm 删除工作区文件 git rm删除版本库文件
 
+git remote add Rain(远程库名) https://github.com/fjiayu/LearnPHP.git
+将本地仓库推送到远程
+
+git push -u Rain master 把本地库推送到远程库 第一次加-u 后面都不加了
+username :fjiayu
+password :jia6yu6
+
+git clone http://github.com/fjiayu/LearnPHP.git //从远程库克隆
+
 

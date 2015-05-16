@@ -14,4 +14,6 @@ git log 查看commit 记录日志
 git log --pretty=oneline 会显示得简洁一点
 git reset --hard HEAD^ 回到上一个版本
 git reset --hard asd6767 //根据日志log的commit id 返回某个版本
+git reflog 查看所有日志，包括删除的，可以依次恢复 reset
+git add 只是把文件提交到暂存区，commit 将暂存区所有文件全部提交到哦master
 

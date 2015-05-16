@@ -16,4 +16,11 @@ git reset --hard HEAD^ 回到上一个版本
 git reset --hard asd6767 //根据日志log的commit id 返回某个版本
 git reflog 查看所有日志，包括删除的，可以依次恢复 reset
 git add 只是把文件提交到暂存区，commit 将暂存区所有文件全部提交到哦master
+git checkout -- readme.txt 把已经修改还没有add的文件退回上一个版本
+git reset HEAD readme.txt 把已经add还没有commit的文件退回
+
+Git 分为 工作区 暂存库 版本库(.Git)
+工作区删除了版本库还有，用git checkout -- readme.txt 就可以把版本库给工作区
+rm 删除工作区文件 git rm删除版本库文件
+
 

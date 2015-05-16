@@ -1,0 +1,12 @@
+git config --global user.name "connie" 设置名称
+git config --global user.email ""
+
+cd "" 进入目录
+git init 将目录变为Git仓库
+
+编写了一个redame.txt后
+git add readme.txt 添加到仓库
+git commit -m "Message" 告诉仓库提交文件信息
+git status 查看是否文件有修改
+git diff readme.txt 查看文件有哪些修改
+

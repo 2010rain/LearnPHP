@@ -9,4 +9,5 @@ git add readme.txt 添加到仓库
 git commit -m "Message" 告诉仓库提交文件信息
 git status 查看是否文件有修改
 git diff readme.txt 查看文件有哪些修改
+Git 每次修改文件，commit信息
 

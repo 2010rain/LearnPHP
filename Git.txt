@@ -32,4 +32,6 @@ password :jia6yu6
 
 git clone http://github.com/fjiayu/LearnPHP.git //从远程库克隆
 
+git pull 把本地更新推送到github
+
 

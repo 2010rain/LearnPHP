@@ -10,4 +10,8 @@ git commit -m "Message" 告诉仓库提交文件信息
 git status 查看是否文件有修改
 git diff readme.txt 查看文件有哪些修改
 Git 每次修改文件，commit信息
+git log 查看commit 记录日志
+git log --pretty=oneline 会显示得简洁一点
+git reset --hard HEAD^ 回到上一个版本
+git reset --hard asd6767 //根据日志log的commit id 返回某个版本
 
